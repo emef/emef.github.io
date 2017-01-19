@@ -1,4 +1,4 @@
-$.getJSON("/spells.json", function(spells) {
+$.getJSON("spells.json", function(spells) {
   window.spells = spells;
   $.each(spells, function(i, spell) {
     var tr = $("<tr />");
